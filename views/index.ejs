@@ -1,0 +1,7 @@
+<h2>Realm blog</h2>
+<a href="/write">글작성</a>
+<% for(var i =0; i<posts.length; i++) { %>
+  <h3><%= posts[i].title %></h3>
+  <p><%= posts[i].content %></p>
+  <% } %>
+
